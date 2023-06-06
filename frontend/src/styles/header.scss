@@ -1,0 +1,25 @@
+.header{
+    background-color: black;
+    color: rgb(223, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    font: 1.5em sans-serif;
+}
+.likeValue{
+    position: absolute;
+    top: 2px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 45%;
+    background-color: yellow;
+    padding: 5px;
+    margin: 4px;
+    color: black;
+}
+.color{
+    color: white;
+}
+
+

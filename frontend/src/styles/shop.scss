@@ -1,0 +1,47 @@
+.shopCart img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}
+.shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    margin: 2rem 3rem;
+    
+}
+.shopContainer{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.shopCart{
+    color: black;
+}
+ p{
+   margin: 10px;
+}
+.likeBtn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #47A992;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.3s;
+    &:hover{
+        color: white;
+        background-color: #E74646;
+        transform: scale(1.1);
+    }
+}
+
+
